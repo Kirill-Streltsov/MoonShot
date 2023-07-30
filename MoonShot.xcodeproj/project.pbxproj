@@ -16,6 +16,9 @@
 		872904E42A7711FD00B1045B /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872904E32A7711FD00B1045B /* Astronaut.swift */; };
 		872904E62A77126B00B1045B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872904E52A77126B00B1045B /* Bundle-Decodable.swift */; };
 		872904E82A77144200B1045B /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872904E72A77144200B1045B /* Mission.swift */; };
+		872904EA2A771BC500B1045B /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872904E92A771BC500B1045B /* Color-Theme.swift */; };
+		872904EC2A771E3000B1045B /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872904EB2A771E3000B1045B /* MissionView.swift */; };
+		872904EE2A7724C700B1045B /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872904ED2A7724C700B1045B /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		872904E32A7711FD00B1045B /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		872904E52A77126B00B1045B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		872904E72A77144200B1045B /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		872904E92A771BC500B1045B /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		872904EB2A771E3000B1045B /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		872904ED2A7724C700B1045B /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +69,15 @@
 			children = (
 				872904D12A7706D900B1045B /* MoonShotApp.swift */,
 				872904D32A7706D900B1045B /* ContentView.swift */,
-				872904D52A7706DB00B1045B /* Assets.xcassets */,
+				872904EB2A771E3000B1045B /* MissionView.swift */,
+				872904ED2A7724C700B1045B /* AstronautView.swift */,
+				872904E92A771BC500B1045B /* Color-Theme.swift */,
 				872904E32A7711FD00B1045B /* Astronaut.swift */,
 				872904E72A77144200B1045B /* Mission.swift */,
 				872904E52A77126B00B1045B /* Bundle-Decodable.swift */,
 				872904E02A77118B00B1045B /* astronauts.json */,
 				872904DF2A77118B00B1045B /* missions.json */,
+				872904D52A7706DB00B1045B /* Assets.xcassets */,
 				872904D72A7706DB00B1045B /* Preview Content */,
 			);
 			path = MoonShot;
@@ -154,7 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872904EC2A771E3000B1045B /* MissionView.swift in Sources */,
 				872904E42A7711FD00B1045B /* Astronaut.swift in Sources */,
+				872904EE2A7724C700B1045B /* AstronautView.swift in Sources */,
+				872904EA2A771BC500B1045B /* Color-Theme.swift in Sources */,
 				872904D42A7706D900B1045B /* ContentView.swift in Sources */,
 				872904D22A7706D900B1045B /* MoonShotApp.swift in Sources */,
 				872904E82A77144200B1045B /* Mission.swift in Sources */,
