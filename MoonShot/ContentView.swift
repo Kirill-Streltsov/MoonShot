@@ -7,31 +7,14 @@
 
 import SwiftUI
 
-struct CustomText: View {
-    let text: String
-    
-    var body: some View {
-        Text(text)
-    }
-    
-    init(_ text: String) {
-        print("Creating a new custom text")
-        self.text = text
-    }
-}
 
 struct ContentView: View {
+    
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    let missions: [Mission] = Bundle.main.decode("missions.json")
+    
     var body: some View {
-        NavigationView {
-            List(0..<100) { row in
-                NavigationLink {
-                    Text("Detail \(row)")
-                } label: {
-                    Text("Row \(row)")
-                }
-            .navigationTitle("SwiftUI")
-            }
-        }
+        Text("\(astronauts.count)")
     }
 }
 
